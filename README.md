@@ -14,7 +14,7 @@ symmetry-reduction-CO/
 ├── CO_problems_notebooks/
 │   ├── shortest_path.ipynb
 │   ├── graph_coloring.ipynb
-│   ├── max_cut.ipynb (planned)
+│   ├── max_cut.ipynb
 │   └── traveling_salesman.ipynb (planned)
 └── references/
     └── bibliography.bib
