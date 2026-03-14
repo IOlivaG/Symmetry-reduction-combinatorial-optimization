@@ -15,7 +15,7 @@ symmetry-reduction-CO/
 │   ├── shortest_path.ipynb
 │   ├── graph_coloring.ipynb
 │   ├── max_cut.ipynb
-│   └── traveling_salesman.ipynb (planned)
+│   └── traveling_salesman.ipynb
 └── references/
     └── bibliography.bib
 ```
@@ -28,7 +28,8 @@ symmetry-reduction-CO/
 
 - **max_cut.ipynb:** Applies *symmetry breaking by variable fixing* to the maximum cut problem, where the goal is to partition the vertices of a graph into two sets such that the number of edges between the sets is maximized. The problem exhibits a **flip symmetry**: any cut \(S\) and its complement \(\bar{S}\) produce the same objective value, generating pairs of equivalent optimal solutions. A symmetry breaking constraint is introduced by fixing the partition assignment of a reference vertex (e.g., \(z_1 = 0\)), eliminating redundant symmetric solutions while preserving optimality. A complete example on the graph \(K_4\) illustrates the ILP formulation, the symmetry structure of the solution space, and the reduction in equivalent optimal cuts obtained after symmetry breaking.
 
-- **traveling_salesman.ipynb** *(planned)*: Will examine the traveling salesman problem (TSP), where a salesman must visit each city exactly once and return to the starting city with minimum total distance.
+- **traveling_salesman.ipynb:** Applies *symmetry breaking by arc fixing* to the traveling salesman problem, where a salesman must visit each city exactly once and return to the starting city with minimum total cost. The problem exhibits **dihedral symmetry** $D_n$: any tour can be represented in $n$ rotations and $2$ directions of traversal,
+generating $2n$ equivalent directed representations per essentially distinct tour. The MTZ (Miller-Tucker-Zemlin) ILP formulation is presented with subtour elimination constraints, and a single arc-fixing constraint ($x_{12} = 1$) is introduced to break both rotational and reflective symmetry simultaneously. An example on $K_5$ with uniform weights illustrates the reduction from $120$ total directed tours to $12$ canonical representatives, achieving a reduction factor of $|D_5| = 10$.
 
 ## Implementation
 
