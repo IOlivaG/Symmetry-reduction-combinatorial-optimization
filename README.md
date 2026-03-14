@@ -13,7 +13,7 @@ symmetry-reduction-CO/
 ├── README.md
 ├── CO_problems_notebooks/
 │   ├── shortest_path.ipynb
-│   ├── graph_coloring.ipynb (planned)
+│   ├── graph_coloring.ipynb
 │   ├── max_cut.ipynb (planned)
 │   └── traveling_salesman.ipynb (planned)
 └── references/
