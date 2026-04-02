@@ -64,7 +64,7 @@ Each notebook covers:
 
 ## Contributing
 
-Contributions to this repository are welcome. Please open an issue or submit a pull request for suggestions, improvements, or bug fixes.
+Contributions to this repository are welcome. Please open an issue or submit a pull request for suggestions, improvements, or bug fixes. You can also reach out via [Isaac Oliva-González's homepage](https://iolivag.github.io).
 
 ## License
 
