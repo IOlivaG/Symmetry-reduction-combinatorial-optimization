@@ -1,10 +1,8 @@
 # Symmetry Reduction in Combinatorial Optimization
 
-This repository explores the application of symmetry reduction techniques to combinatorial optimization (CO) problems. Many such problems exhibit structural symmetries, that is, transformations of the solution space that preserve both feasibility and objective value. The presence of symmetry partitions the feasible region into equivalence classes called orbits, where all solutions within an orbit share the same objective value. From an optimization perspective, exploring multiple solutions in the same orbit is redundant, and identifying a single canonical representative per orbit suffices.
+This repository presents an exploratory study of symmetry in combinatorial optimization (CO) problems. Many such problems exhibit structural symmetries, that is, transformations of the solution space that preserve both feasibility and objective value. The presence of symmetry partitions the feasible region into equivalence classes called orbits, where all solutions within an orbit share the same objective value.
 
-The notebooks in this repository present classical combinatorial optimization problems formulated as integer linear programs, analyze their symmetry structures, and apply symmetry reduction techniques to decrease the effective solution space. The goal is to illustrate how exploiting symmetry can reduce computational effort in solution enumeration and analysis.
-
-This repository is intended as a pedagogical resource and a foundation for extending these techniques to other combinatorial problems.
+From an optimization perspective, exploring multiple solutions in the same orbit is redundant, and identifying a single representative per orbit suffices. The notebooks illustrate how symmetry-aware modeling can be used to reduce this redundancy in practice.
 
 ## Repository Structure
 ```
